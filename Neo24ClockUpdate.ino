@@ -12,7 +12,7 @@ int currentSecond, currentMinute, currentHour;
 char ssid[] = "xxxxxxx";  //  your network SSID (name)
 char pass[] = "xxxxxxx";       // your network password
 
-const float UTC_OFFSET = 0;
+const float UTC_OFFSET = -6; //for Mountain time frame
 TimeClient timeClient(UTC_OFFSET);
 
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(24, PIN);
